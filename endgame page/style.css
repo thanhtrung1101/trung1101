@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #777777;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    
+}
+.nav ul{
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+    
+}
+.nav a:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.main-header { 
+    background-image: url(img/header3.jpg)  ; 
+    background-size: cover;
+    background-size: 100% 100%;
+   background-repeat: no-repeat;
+   min-height: 750px;
+   
+  
+   
+}
+.main-nav li{
+    padding : 0 4%;
+}
+.section-header{
+    text-align: center;
+    color:black ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    color: #333;
+    font-size: 2.5em;
+}
+.content-setion{
+    margin: 2em;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.character-img{
+    float: left;
+    margin: 15px;
+    width: 300px;
+    height:380px; ;
+    
+}
+.main-footer{
+    padding : .25em 0;
+    background-color: black;
+}
+.footer{
+    text-align: center;
+    color:black ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: strong;
+    color: white;
+    font-size: 2.5em;
+}
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+.footer-nav li{
+    padding: 0 .5em;
+}
+.footer-nav img{
+    width: 30px;
+    height:30px ;
+}
+.main-img{
+    padding: 15px;
+    float: left;
+}
+
+.store-header{
+    margin: .5em 15% 2em 15%;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.store-header:hover{
+    text-decoration: none;
+}
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+    color: #2D9CDB;
+}.btn-primary:hover{
+    background-color: #2D9CDB;
+}
+.btn-primary{
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+.shop-item{
+    margin:30px;
+}
+.shop-item-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+.shop-item-image{
+    height: 200px;
+}
+.shop-item-details{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.shop-item-price{
+    flex-grow: 1;
+    color: #333;
+}
+.shop-items{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around; 
+}
+.btn-purchase{
+    align-items: center;
+    margin: 40px auto 80px auto;
+    display: block;
+    font-size: bold;
+    padding: 1.5em;
+   
+
+}
+.cart-header{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+.cart-column{
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.cart-row{
+    display: flex;
+}
+.cart-item{
+    width: 45%;
+}
+.cart-price{
+    width: 20%;
+    color: #333;
+    
+}
+.cart-quantity{
+    width: 35%;
+}
+.cart-item-title{
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+.cart-item-image{
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+.btn-danger{
+    color: white;
+    background-color: #EB5757;
+    font-weight: bold;
+    border-radius: .3em;
+    border: none;
+}
+.btn-danger:hover{
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input{
+    width:100px;
+    height: 34px;
+    border-radius: 5px;
+    color: #333;
+    padding: 0;
+    margin-right: 25px;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: #eee;
+    border: 1px solid #333;
+}
+.item-price{
+    padding-left: 20px;
+}
+.cart-row:last-child{
+    border-bottom: 1px solid black;
+}
+.cart-row:last-child .cart-column{
+    border: none;
+}
+
+.teaser-trailer img{
+    width: 100px;
+    height: 100px;
+    margin: 40px auto 80px auto;
+    display: block;
+    font-size: bold;
+}
+
